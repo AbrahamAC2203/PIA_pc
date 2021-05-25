@@ -1,0 +1,14 @@
+El proyecto se divide en dos principales archivos de python,
+cliente y server, server tiene cargados dos modulos para poder
+generar dos archivos mas, uno de powershell que recolecta 
+informacion y uno de python que funciona como keylogger.
+
+El archivo de cliente nos puede generar archivos en base 
+a webscrapping, regresa ya sea todos los datos del url,
+o sólo los headers si así lo deseamos, además, le podemos
+no ingresar parámetro alguno para que así nos genera una
+pseudo terminal que se conecta al archivo servidor.
+
+el archivo de servidor tiene ademas funciones para poder 
+tomar screenshot de la pantalla del servidor gracias a 
+pyautogui para así, enviarla al cliente
